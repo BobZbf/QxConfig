@@ -13,8 +13,9 @@ server = 223.6.6.6
 server = 119.28.28.28
 
 [policy]
-static = OutSide, Hong Kong, Singapore, Taiwan, United States, Japan, Korea, Other, direct,  img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png
-static = Final, OutSide, direct, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+static = 节点选择, direct, 动态BGP+IPLC|香港01|3x, 动态BGP+IPLC|香港02|3x, 动态BGP+IPLC|香港03|3x, 动态BGP+IPLC|香港04|3x, 动态BGP+IPLC|香港05|3x, 动态BGP+IPLC|香港01(原生)|3x, 动态BGP+IPLC|香港02(原生)|3x, 动态BGP+IPLC|香港03(原生)|3x, 动态BGP+IPLC|香港04(原生)|3x, 动态BGP+IPLC|香港05(原生)|3x, 动态BGP+IPLC|新加坡01(原生)|3x, 动态BGP+IPLC|新加坡02(原生)|3x, 动态BGP+IPLC|新加坡03(原生)|3x, 动态BGP+IPLC|新加坡04(原生)|3x, 动态BGP+IPLC|新加坡05(原生)|3x, 动态BGP+IPLC|台湾01(原生)|3x, 动态BGP+IPLC|台湾02(原生)|3x, 动态BGP+IPLC|台湾03(原生)|3x, 动态BGP+IPLC|台湾04(原生)|3x, 动态BGP+IPLC|台湾05(原生)|3x, 动态BGP+IPLC|台湾06(原生)|3x, 动态BGP+IPLC|台湾07(原生)|3x, 动态BGP+IPLC|台湾08(原生)|3x, 动态BGP+IPLC|台湾09(原生)|3x, 动态BGP+IPLC|台湾10(原生)|3x, 动态BGP+IPLC|日本01(原生)|3x, 动态BGP+IPLC|日本02(原生)|3x, 动态BGP+IPLC|日本03(原生)|3x, 动态BGP+IPLC|日本04(原生)|3x, 动态BGP+IPLC|日本05(原生)|3x, 动态BGP+IPLC|美国01(原生)|3x, 动态BGP+IPLC|美国02(原生)|3x, 动态BGP+IPLC|美国03(原生)|3x, 动态BGP+IPLC|美国04(原生)|3x, 动态BGP+IPLC|美国05(原生)|3x, iplc|广港01|1.5x, iplc|广港02|1.5x, iplc|广港03|1.5x, iplc|广港04|1.5x, iplc|广港05|1.5x, iplc|广港-原生01|1.5x, iplc|广港-原生02|1.5x, iplc|广港-原生03|1.5x, iplc|广港-原生04|1.5x, iplc|广港-原生05|1.5x, iplc|广新01|1.5x, iplc|广新02|1.5x, iplc|广新-原生01|1.5x, iplc|广新-原生02|1.5x, iplc|广新-原生03|1.5x, iplc|广台-原生01|1.5x, iplc|广台-原生02|1.5x, iplc|广台-原生03|1.5x, iplc|广台-原生04|1.5x, iplc|广台-原生05|1.5x, iplc|广台-原生06|1.5x, iplc|广台-原生07|1.5x, iplc|广台-原生08|1.5x, iplc|广台-原生09|1.5x, iplc|广台-原生10|1.5x, iplc|广日01|1.5x, iplc|广日02|1.5x, iplc|广日-原生01|1.5x, iplc|广日-原生02|1.5x, iplc|广日-原生03|1.5x, iplc|广日-原生04|1.5x, iplc|广日-原生05|1.5x, iplc|广美-原生01|1.5x, iplc|广美-原生02|1.5x, iplc|广美-原生03|1.5x, iplc|广美-原生04|1.5x, iplc|广美-原生05|1.5x, 中转|香港01, 中转|香港02, 中转|香港03, 中转|香港04, 中转|香港05, 中转|香港-原生01, 中转|香港-原生02, 中转|香港-原生03, 中转|香港-原生04, 中转|香港-原生05, 中转|台湾-原生01, 中转|台湾-原生02, 中转|台湾-原生03, 中转|台湾-原生04, 中转|台湾-原生05, 中转|台湾-原生06, 中转|台湾-原生07, 中转|台湾-原生08, 中转|台湾-原生09, 中转|台湾-原生10, 中转|新加坡01, 中转|新加坡02, 中转|新加坡03, 中转|日本01, 中转|日本02, 中转|日本03, 中转|日本04, 中转|日本05, 中转|韩国01, 中转|韩国02, 中转|韩国03, 中转|美国01, 中转|美国02, 中转|美国03, 中转|美国04, 中转|美国05, 中转|加拿大01, Anycast|香港, Anycast|新加坡, Anycast|日本, Anycast|台湾, Anycast|泰国, Anycast|美国, Anycast|英国, Anycast|德国, Anycast|加拿大, Anycast|韩国, Anycast|俄罗斯, Anycast|荷兰, Anycast|印度, Anycast|法国, Anycast|阿根廷, Anycast|巴西, Anycast|土耳其, Anycast|澳大利亚, 福利|新加坡|0.1x|限速10Mbps, 福利|香港01|0.1x|限速10Mbps, 福利|日本|0.1x|限速10Mbps, 福利|美国|0.1x|限速10Mbps, 下载专用|0.8x|支持大流量, 游戏专线|香港01|3x, 游戏专线|香港02(原生)|3x, 游戏专线|新加坡01(原生)|3x, 游戏专线|台湾01(原生)|3x, 游戏专线|日本01(原生)|3x, 游戏专线|韩国01(原生)|3x
+static = OutSide, 节点选择, Hong Kong, Singapore, Taiwan, United States, Japan, Korea, Other, direct,  img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png
+static = Final, 节点选择, OutSide, direct, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
 // 分流
 static = DomesticMedia, direct, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
 static = Domestic, direct, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
@@ -31,16 +32,16 @@ static = Weibo, reject, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master
 static = Discord, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
 
 // 按地区分类
-static = Hong Kong, resource-tag-regex=FastLink, server-tag-regex=香港|Hong Kong|HK|hk, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
-static = Singapore, resource-tag-regex=FastLink, server-tag-regex=新加坡|Singapore|SG|sg, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
-static = Taiwan, resource-tag-regex=FastLink, server-tag-regex=台湾|Taiwan|TW|tw|台北, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
-static = United States, resource-tag-regex=FastLink, server-tag-regex=美国|United States|US|us, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
-static = Japan, resource-tag-regex=FastLink, server-tag-regex=日本|Japan|JP|jp, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+static = Hong Kong, resource-tag-regex=FastLink, server-tag-regex=香港|Hong Kong|HK|hk|港, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+static = Singapore, resource-tag-regex=FastLink, server-tag-regex=新加坡|Singapore|SG|sg|新, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+static = Taiwan, resource-tag-regex=FastLink, server-tag-regex=台湾|Taiwan|TW|tw|台北|台, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+static = United States, resource-tag-regex=FastLink, server-tag-regex=美国|United States|US|us|美, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+static = Japan, resource-tag-regex=FastLink, server-tag-regex=日本|Japan|JP|jp|日, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
 static = Korea, resource-tag-regex=FastLink, server-tag-regex=韩国|Korea|KR|kr, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
-static = Other, resource-tag-regex=FastLink, server-tag-regex=印度|巴西|阿根廷|英国|澳门|土耳其|挪威|瑞士|俄罗斯|瑞典|爱尔兰|法国|菲律宾|越南|泰国|印度尼西亚|德国|英国|荷兰|乌克兰, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AIA.png
+static = Other, resource-tag-regex=FastLink, server-tag-regex=|加拿大|印度|巴西|阿根廷|英国|澳门|土耳其|挪威|瑞士|俄罗斯|瑞典|爱尔兰|法国|菲律宾|越南|泰国|印度尼西亚|德国|英国|荷兰|乌克兰, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AIA.png
 
 [server_remote]
-https://7d4c4cc7e405-fldy01.coasv6z.cc/api_version2/ylvnziu2ulfsxicb?sub=3&extend=1, tag=tag=, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Heart.png
+https://f9570812420e-fldy01.coasv6z.cc/api_version2/ylvnziu2ulfsxicb?sub=3&extend=1, tag=FastLink, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Heart.png
 
 [filter_remote]
 https://rules-for-qx.sveir.xyz/Rules/Advertising/Hijacking.list, tag=Hijacking, enabled=true
