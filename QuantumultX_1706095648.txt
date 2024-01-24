@@ -61,6 +61,9 @@ https://rules-for-qx.sveir.xyz/Rules/Region/China.list, tag=Domestic, force-poli
 # 网页去广告
 https://rules-for-qx.sveir.xyz/Rewrite/AdBlock/WebAdBlock.adblock, tag=常用网页去广告
 
+#毒奶去网页广告计划（稳定版）
+https://rules-for-qx.sveir.xyz/Rewrite/4limbo.adblock, tag=毒奶去网页广告计划（稳定版）
+
 # 知乎去广告
 https://rules-for-qx.sveir.xyz/Rewrite/AdBlock/Zhihu.adblock, tag=知乎去广告
 
