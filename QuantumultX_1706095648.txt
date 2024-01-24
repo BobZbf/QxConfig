@@ -29,7 +29,7 @@ static = Advertising, reject, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@
 static = Bilibili, reject, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png
 static = Weibo, reject, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png
 static = Discord, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
-s
+
 // 按地区分类
 static = Hong Kong, resource-tag-regex=🧁 我的订阅, server-tag-regex=香港|Hong Kong|HK|hk, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
 static = Singapore, resource-tag-regex=🧁 我的订阅, server-tag-regex=新加坡|Singapore|SG|sg, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
