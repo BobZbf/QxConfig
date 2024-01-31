@@ -15,6 +15,7 @@ server = 119.28.28.28
 [policy]
 static = OutSide, AllFastLink, Hong Kong, Singapore, Taiwan, United States, Japan, Korea, direct,  img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png
 static = Final, OutSide, direct, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+static = AllFastLink, resource-tag-regex=FastLink, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AIA.png
 // 分流
 static = DomesticMedia, direct, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
 static = Domestic, direct, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
@@ -26,12 +27,11 @@ static = Microsoft, direct, OutSide, img-url=https://cdn.jsdelivr.net/gh/Koolson
 static = Microsoft Domestic, direct, OutSide, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
 static = Hijacking, reject, direct, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
 static = Advertising, reject, direct, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png
-static = Bilibili, reject, OutSide, direct,img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png
-static = Weibo, reject, OutSide, direct,img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png
 static = Discord, OutSide, direct, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Discord.png
+static = Spotify, OutSide, direct, img-url= https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png
+
 
 // 按地区分类
-static = AllFastLink, resource-tag-regex=FastLink, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AIA.png
 static = Hong Kong, resource-tag-regex=FastLink, server-tag-regex=香港|Hong Kong|HK|hk|港, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
 static = Singapore, resource-tag-regex=FastLink, server-tag-regex=新加坡|Singapore|SG|sg|新, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
 static = Taiwan, resource-tag-regex=FastLink, server-tag-regex=台湾|Taiwan|TW|tw|台北|台, img-url=https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
@@ -45,16 +45,15 @@ https://52d7ac9cbfd6-fldy01.coasv6z.cc/api_version2/ylvnziu2ulfsxicb?sub=3&exten
 [filter_remote]
 https://rules-for-qx.sveir.xyz/Rules/Advertising/Hijacking.list, tag=Hijacking, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Advertising/AdReject.list, tag=Advertising, enabled=true
-https://rules-for-qx.sveir.xyz/Rules/Advertising/VideoApp/Bilibili.list, tag=BilibiliAD, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Services/Google.list, tag=Google, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Services/Microsoft.list, tag=Microsoft, enabled=true
-https://rules-for-qx.sveir.xyz/Rules/Services/SNS/Weibo.list, tag=Weibo, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Services/SNS/Discord.list, tag=Discord, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Media/DomesticMedia.list, tag=DomesticMedia, force-policy=direct, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Media/ForeignMedia.list, tag=ForeignMedia, force-policy=OutSide, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Region/Global.list, tag=Global, force-policy=OutSide, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Services/Apple.list, tag=Apple, force-policy=direct, enabled=true
 https://rules-for-qx.sveir.xyz/Rules/Region/China.list, tag=Domestic, force-policy=direct, enabled=true
+https://rules-for-qx.sveir.xyz/Rules/Media/Foreign/Spotify.list tag=Spotify, enabled=true
 
 
 [rewrite_remote]
@@ -102,7 +101,7 @@ final, Final
 [rewrite_local]
 
 [mitm]
+passphrase = 4A20A83F
+p12 = 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
 
 [task_local]
-# 流媒体查询脚本
-event-interaction https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/streaming-ui-check.js, tag = 流媒体 - 解锁查询，img-url=checkmark.seal.system, enabled=true
